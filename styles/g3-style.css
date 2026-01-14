@@ -6,3 +6,48 @@
   font-weight: 400;
   font-style: normal;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared style  */
+
+
+
+/* Navbar related style  */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.navbar {
+    /* border: 1px solid tomato; */
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 50px 0 100px;
+}
+
+.brand {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.navbar-lists {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar-links {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
