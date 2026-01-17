@@ -295,3 +295,62 @@ header {
     /* font color dark 03  */
     color: #727272;
 }
+
+/* Sponsore section related style  */
+footer {
+    /* border: 1px solid tomato; */
+    width: 75%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* .sponsors-section {
+    align-items: center;
+} */
+
+.sponsors-content {
+    /* border: 1px solid blue; */
+    width: 540px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.sponsors-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    /* font color dark 01  */
+    color: #131313;
+    margin-bottom: 20px;
+}
+
+.sponspors-description {
+    font-size: 16px;
+    /* font color dark 03  */
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.sponsors-company {
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(100%);
+    margin-bottom: 120px;
+}
+
+.sponsors-company img {
+    width: 12%;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #FFF4E7;
+    padding: 20px 0;
+    margin-bottom: 130px;
+}
+
+.copyright p {
+    font-size: 1.2rem;
+    /* font color dark 02  */
+    color: #424242;
+}
