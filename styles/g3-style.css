@@ -109,6 +109,7 @@ header {
     margin: 80px auto 0;
     gap: 60px;
     align-items: center;
+    justify-content: center;
 }
 
 .features-image {
@@ -153,3 +154,89 @@ header {
     color: #727272;
     margin-bottom: 30px;
 }
+
+/* Features item section related style  */
+.features-item {
+    /* border: 1px solid green; */
+    width: 75%;
+    max-width: 1140px;
+    margin: 100px auto 0;
+    /* text-align: center; */
+}
+
+.features-item-container {
+    /* border: 1px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.features-item-content {
+    /* border: 1px solid peru; */
+    text-align: start;
+    padding-top: 35px;
+}
+
+.features-item-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    /* font color dark 01  */
+    color: #131313;
+    margin-bottom: 20px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.features-item-description {
+    line-height: 26px;
+    /* font color dark 03  */
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.features-item-content-container {
+    padding: 10px 20px 10px 30px;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 30px 0 #00000013;
+}
+
+.container-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* font color dark 01  */
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.container-description {
+    font-size: 16px;
+    line-height: 26px;
+    /* font color dark 03  */
+    color: #727272;
+}
+
+.features-item-image {
+    /* border: 1px solid red; */
+    width: 220%;
+}
+
+.features-item-image img {
+    width: 100%;
+}
+
+
+.btn-badge {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 20px 15px;
+    margin-left: -52px;
+    margin-top: -80px;
+}
+
+.ten-plus-year {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
