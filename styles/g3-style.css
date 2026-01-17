@@ -240,3 +240,58 @@ header {
     color: #FFFFFF;
 }
 
+/* Some Facts section related style */
+.some-facts-section {
+    /* border: 1px solid blueviolet; */
+    width: 75%;
+    max-width: 1140px;
+    margin: 120px auto 0;
+}
+
+.facts-title {
+    /* border: 1px solid gold; */
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+    width: 258px;
+}
+
+.facts-description {
+    /* border: 1px solid goldenrod; */
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 540px;
+    margin-bottom: 70px;
+}
+
+.facts-card-container {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 150px;
+}
+
+.facts-card {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 35px 30px 45px;
+    width: 225px;
+}
+
+.achivment {
+    font-size: 2.5rem;
+    font-weight: 600;
+    /* font color dark 02  */
+    color: #424242;
+    margin: 10px 0;
+}
+
+.achivment-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* font color dark 03  */
+    color: #727272;
+}
